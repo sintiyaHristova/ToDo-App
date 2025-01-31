@@ -1,4 +1,4 @@
-# ToDoApp
+# ToDo-App
 This is a simple yet powerful task management application, designed to help users efficiently organize their daily tasks. With an intuitive interface and easy-to-use features, the application allows users to categorize tasks, track progress, and manage their workload effortlessly. 
 
 ## Technologies Used:

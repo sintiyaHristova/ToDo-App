@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="dark">
+    <div class="sidebar-overlay"></div>
+     <div class="row">
+        <div class="col-sm-2 sidebar">
+            <div class="sidebar-title">
+                <h3>How is the progress today?</h3>
+            </div>
+            <hr>
+            <div class="progress-stats">
+                <p class="progress-done-num">2/12</p>
+                <div class="progress">
+                    <div class="progress-done" data-done="90"></div>
+                </div>
+            </div>
+            <div class="sidebar-stats">
+                <div class="stat-box">
+                    <h1 class="completed-tasks">0</h1>
+                    <p>Completed <br><span>Tasks</span></p>
+                </div>
+                <div class="stat-box">
+                    <h1 class="pending-tasks">0</h1>
+                    <p>Todo <br><span>Tasks</span></p>
+                </div>
+                <div class="stat-box">
+                    <h1 class="all-tasks">0</h1>
+                    <p>All <br><span>Tasks</span></p>
+                </div>
+            </div>
+            <hr>
+        <nav class="sidebar-nav">
+            <h4 class="nav-title">PROJECTS</h4>
+            <ul class="nav-list">
+                <li class="nav-item nav-active" data-value="alltasks"><i class="fa fa-calendar-alt" style="color: rgb(11, 25, 20);"></i> All Tasks</li>
+                <li class="nav-item" data-value="work"><i class="fa fa-building" style="color: rgb(5, 120, 45);"></i> Work</li>
+                <li class="nav-item" data-value="personal"><i class="fa fa-user" style="color: rgb(192, 14, 85);"></i> Personal</li>
+                <li class="nav-item" data-value="coding"><i class="fa fa-laptop" style="color: rgb(192, 221, 28);"></i> Coding</li>
+                <li class="nav-item" data-value="sports"><i class="fa fa-bicycle" style="color: rgb(50, 216, 161);"></i> Sports</li>
+                <li class="nav-item" data-value="groceries"><i class="fa fa-shopping-cart" style="color: rgb(53, 50, 216);"></i> Groceries</li>
+            </ul>
+        </nav>
+    </div>
+    <button class="sidebar-toggle">
+        <i class="fa fa-bars"></i>
+    </button>
+    <div class="theme-toggle">
+        <i class="fa fa-moon"></i>
+    </div>
+        <div class="col-sm-10 page">
+            <div class="header">
+                <form class="search-bar">
+                    <input type="search" class="search-input" placeholder="Search Tasks">
+                    <button type="button" class="search-btn"><i class="fa fa-search"></i></button>
+                </form>
+                <div class="new-item">
+                    <form class="create-todo-form">
+                        <input type="text" class="todo-input" placeholder="Enter Task:">
+                        <select class="todo-category">
+                            <option value="">-category-</option>
+                            <option value="work">Work</option>
+                            <option value="personal">Personal</option>
+                            <option value="coding">Coding</option>
+                            <option value="sports">Sports</option>
+                            <option value="groceries">Groceries</option>
+                        </select>
+                        <input type="date" class="todo-date">
+                        <button type="submit" class="add-new-btn">
+                            <i class="fa fa-plus"></i> Add Task
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="row todo-containers">  
+                <div class="col todo">
+                    <div class="status-title">
+                        <h4>To Do</h4>  
+                    </div>
+                    <ul id="todo-list" class="todo-list" data-category="todo"></ul>
+                </div>
+                <div class="col in-progress">
+                    <div class="status-title">
+                        <h4>In Progress</h4>     
+                    </div>
+                    <ul id="inprogress-list" class="todo-list" data-category="inprogress"></ul>
+                </div>
+                <div class="col done">
+                    <div class="status-title">
+                        <h4>Done</h4>    
+                    </div>
+                    <ul id="done-list" class="todo-list" data-category="done"></ul>
+                </div>
+            </div>
+        </div>
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./toDoApp.js"></script>
+</body>
+</html>

@@ -18,8 +18,10 @@ To use this application locally, clone the repository and open `index.html` in y
 - **Dark/Light Mode**: Toggle between dark and light themes for better user experience.
 
 ## Live Demo: https://to-do-app-sintiya.vercel.app/
-![01](https://github.com/user-attachments/assets/401ad02e-7939-435a-acfc-266f4aab8e58)
-![03](https://github.com/user-attachments/assets/6f80fbee-ae0b-43f6-8887-534d3a149ab1)
+![1](https://github.com/user-attachments/assets/d83f1b93-3086-498c-a507-75715640b785)
+![2](https://github.com/user-attachments/assets/e383c843-4dc5-47ad-a100-5d9e418fdef9)
+
+
 ## Responsive design for mobile devices:
 ![07](https://github.com/user-attachments/assets/5c4de1f3-193a-47b7-8cae-cc6c3c85eb6a)
 ![04](https://github.com/user-attachments/assets/692a80ad-41b4-409b-ad57-433c64ce3d1d)

@@ -23,10 +23,14 @@ To use this application locally, clone the repository and open `index.html` in y
 
 
 ## Responsive design for mobile devices:
-![07](https://github.com/user-attachments/assets/5c4de1f3-193a-47b7-8cae-cc6c3c85eb6a)
-![04](https://github.com/user-attachments/assets/692a80ad-41b4-409b-ad57-433c64ce3d1d)
-![08](https://github.com/user-attachments/assets/6b775510-8d68-4065-8252-5a072429949e)
-![06](https://github.com/user-attachments/assets/fe023ed1-3d32-4e23-81cb-7484b9663057)
+
+<img src="https://github.com/user-attachments/assets/452271df-4c41-42dc-a6c8-9357e618e462" width="400" />
+
+<img src="https://github.com/user-attachments/assets/56ad2396-1f09-4b6d-b5a3-cadeaec472eb" width="400" />
+
+
+
+
 
 
 
